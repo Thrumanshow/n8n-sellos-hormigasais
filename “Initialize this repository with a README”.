@@ -1,0 +1,5 @@
+# n8n-sellos-hormigasais Este repositorio forma parte del ecosistema **HormigasAIS** y contiene "sellos" automatizados desarrollados con **n8n**, orientados a: - Indexación SEO inteligente. - Distribución de enlaces actualizados. - Sincronización entre proyectos (Google, GitHub, YouTube, etc). Cada carpeta contiene un flujo de n8n que puede ser importado, configurado y adaptado. --- ### Estructura 
+
+sello-nombre/ ├── flujo.n8n.json # Export del flujo n8n ├── config.env.example # Variables necesarias └── notas.md # Guía de uso y ajustes 
+
+--- ### Primer sello activo: `sello-indexador-hormigasais` Automatiza la detección de nuevos enlaces y su notificación a motores de búsqueda o plataformas externas. 
